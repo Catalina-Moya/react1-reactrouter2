@@ -1,0 +1,71 @@
+.cart {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.carrito-de-compras {
+    padding: 10px;
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    color: #da2c38; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+
+.cart h3 {
+    margin-top: 30px;
+}
+
+.cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cart-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(33.333% - 20px);
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+    max-width: 100%;
+}
+
+.pay-btn, .link-btn {
+    background-color: #8ecae6;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin: 10px; 
+    width: 100px; 
+    text-align: center; 
+}
+
+.link-btn {
+    padding: 13px 10px;
+}
+
+.btn-mas, .btn-menos {
+    background-color: #dde1e3;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin: 10px; 
+    width: 50px; 
+    text-align: center; 
+}

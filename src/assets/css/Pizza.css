@@ -1,0 +1,35 @@
+.pizza-content-dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pizza-content-dos h2 {
+    padding: 40px 0px 0px 0px;
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    color: #da2c38; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.btn-link {
+    display: inline-block;
+    background-color: #8ecae6;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 40px;
+}
+
+.btn-link:hover {
+    background-color: #1a659e;
+    color: white;
+}

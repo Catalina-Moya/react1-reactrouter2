@@ -1,0 +1,43 @@
+.header-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 2.5rem;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.738);
+}
+
+.pizza-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.hr-header {
+    border: 1px solid rgb(255, 255, 255);
+    margin: 30px 250px 30px 250px;
+}
+
